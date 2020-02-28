@@ -68,7 +68,6 @@ int allocate_pid(void)
 		}
 	}
 
-
 	if (pthread_mutex_unlock(&mutex) != 0)
 		fprintf(stderr,"Unable to release mutex\n");
 
